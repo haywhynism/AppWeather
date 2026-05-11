@@ -205,9 +205,9 @@ function App() {
           <span className="switch-icon">⇄</span>
           <span className="switch-label">°F</span>
         </button>
-        <div className="popular d-flex align-items-center">
+        <div className="popular ">
           <label htmlFor="states" className="popular-label">
-            Popular City:{" "}
+            Popular State:{" "}
           </label>
           <select
             name="states"

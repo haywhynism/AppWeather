@@ -446,3 +446,534 @@ body.bg-haze {
 .bg-default {
   background-color: #f5f5f5;
 }
+
+
+/* ==================== RESPONSIVE DESIGN ==================== */
+
+/* Ultra Small Phones (< 320px) */
+@media (max-width: 319.98px) {
+  .App {
+    padding: 12px 8px 32px;
+  }
+
+  .app-title {
+    font-size: 18px !important;
+    margin-bottom: 8px !important;
+  }
+
+  .info-city {
+    font-size: 10px !important;
+  }
+
+  .weather-info {
+    padding: 12px !important;
+    border-radius: 12px !important;
+    margin: 8px !important;
+  }
+
+  .degree :nth-child(1) {
+    font-size: 1.2rem !important;
+  }
+
+  .deg :nth-child(2) {
+    font-size: 9px !important;
+  }
+
+  .forecast {
+    gap: 6px !important;
+    margin: 10px 10px !important;
+  }
+
+  .forecast-card {
+    padding: 8px !important;
+    border-radius: 10px !important;
+  }
+
+  .forecast-card img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .forecast-temp {
+    font-size: 1.1rem !important;
+  }
+
+  .forecast-day {
+    font-size: 10px !important;
+  }
+
+  input {
+    font-size: 11px !important;
+    min-height: 40px !important;
+  }
+
+  .search-button {
+    width: 40px !important;
+    min-height: 40px !important;
+  }
+
+  .temp-switch {
+    min-width: 100px !important;
+    padding: 6px 10px !important;
+    font-size: 10px !important;
+  }
+
+  .popular-label {
+    display: none !important;
+  }
+
+  .popular-select {
+    font-size: 10px !important;
+    padding: 4px 6px !important;
+    min-height: 40px !important;
+  }
+
+  
+}
+
+/* Small Phones (320px - 420px) */
+@media (min-width: 320px) and (max-width: 420.98px) {
+  .App {
+    padding: 16px 10px 40px;
+  }
+
+  .app-title {
+    font-size: 20px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .info-city {
+    font-size: 11px !important;
+  }
+
+  .weather-info {
+    padding: 14px !important;
+    border-radius: 14px !important;
+    margin: 12px 0 !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+  }
+
+  .degree :nth-child(1) {
+    font-size: 1.3rem !important;
+  }
+
+  .degree :nth-child(2) {
+    font-size: 10px !important;
+  }
+
+  .weather-component :nth-child(1) {
+    font-size: 10px !important;
+  }
+
+  .weather-component :nth-child(2) {
+    font-size: 11px !important;
+  }
+
+  .forecast {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 2px !important;
+    margin: 12px 10px !important;
+  }
+
+  .forecast-card {
+    padding: 10px 8px !important;
+    border-radius: 12px !important;
+    margin-right: 10px !important;
+    margin-bottom: 4px !important;
+  }
+
+  .forecast :nth-child(4){
+    margin-top: 1px !important;
+  }
+
+  .forecast-card img {
+    width: 45px !important;
+    height: 45px !important;
+  }
+
+  .forecast-temp {
+    font-size: 1.2rem !important;
+  }
+
+  .forecast-day {
+    font-size: 11px !important;
+  }
+
+  input {
+    font-size: 12px !important;
+    min-height: 42px !important;
+  }
+
+  .search-button {
+    width: 42px !important;
+    min-height: 42px !important;
+  }
+
+  .temp-switch {
+    min-width: 110px !important;
+    padding: 6px 12px !important;
+    font-size: 11px !important;
+  }
+
+  .popular-label {
+    font-size: 11px !important;
+    margin-right: 4px !important;
+    margin-left: 4px !important;
+  }
+
+  .popular-select {
+    font-size: 11px !important;
+    padding: 6px 8px !important;
+    min-height: 42px !important;
+  }
+
+  .refresh-button {
+    font-size: 11px !important;
+    padding: 8px 12px !important;
+  }
+
+  .weather-skeleton {
+    max-width: calc(100% - 16px) !important;
+    padding: 12px !important;
+    margin: 12px auto !important;
+  }
+
+  .forecast-skeleton {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 8px !important;
+  }
+}
+
+/* Medium Phones (420px - 576px) */
+@media (min-width: 421px) and (max-width: 575.98px) {
+  .App {
+    padding: 20px 16px 50px;
+  }
+
+  .app-title {
+    font-size: 24px !important;
+    margin-bottom: 14px !important;
+  }
+
+  .info-city {
+    font-size: 12px !important;
+  }
+
+  .weather-info {
+    padding: 16px !important;
+    border-radius: 16px !important;
+    margin: 14px 0 !important;
+  }
+
+  .degree :nth-child(1) {
+    font-size: 1.5rem !important;
+  }
+
+  .degree :nth-child(2) {
+    font-size: 11px !important;
+  }
+
+  .weather-component :nth-child(1) {
+    font-size: 11px !important;
+  }
+
+  .weather-component :nth-child(2) {
+    font-size: 12px !important;
+  }
+
+  .forecast {
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)) !important;
+    gap: 12px !important;
+    margin: 16px 0 !important;
+  }
+
+  .forecast-card {
+    padding: 12px 10px !important;
+    border-radius: 14px !important;
+  }
+
+  .forecast-card img {
+    width: 55px !important;
+    height: 55px !important;
+  }
+
+  .forecast-temp {
+    font-size: 1.4rem !important;
+  }
+
+  .forecast-day {
+    font-size: 12px !important;
+  }
+
+  input {
+    font-size: 13px !important;
+  }
+
+  .temp-switch {
+    min-width: 120px !important;
+    padding: 8px 16px !important;
+    font-size: 12px !important;
+  }
+
+  .popular-label {
+    font-size: 12px !important;
+  }
+
+  .popular-select {
+    font-size: 12px !important;
+    padding: 8px 10px !important;
+  }
+
+  .weather-skeleton {
+    max-width: calc(100% - 32px) !important;
+    padding: 14px !important;
+    margin: 14px auto !important;
+  }
+
+  .forecast-skeleton {
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)) !important;
+    gap: 12px !important;
+  }
+
+  
+}
+
+/* Small Tablets (576px - 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .App {
+    padding: 28px 20px 60px;
+  }
+
+  .app-title {
+    font-size: 28px !important;
+    margin-bottom: 16px !important;
+  }
+
+  .weather-info {
+    max-width: calc(100% - 40px) !important;
+    padding: 20px !important;
+    margin: 18px auto !important;
+  }
+
+  .degree :nth-child(1) {
+    font-size: 1.8rem !important;
+  }
+
+  .forecast {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)) !important;
+    gap: 14px !important;
+  }
+
+  .forecast-card {
+    padding: 14px !important;
+  }
+
+  .forecast-card img {
+    width: 62px !important;
+    height: 62px !important;
+  }
+
+  .forecast-temp {
+    font-size: 1.6rem !important;
+  }
+
+  .temp-switch {
+    min-width: 130px !important;
+  }
+
+  .weather-skeleton {
+    max-width: calc(100% - 40px) !important;
+    margin: 18px auto !important;
+  }
+}
+
+/* Tablets / Landscape Phones (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  .App {
+    padding: 32px 24px 65px;
+  }
+
+  .app-title {
+    font-size: 32px !important;
+    margin-bottom: 18px !important;
+  }
+
+  .weather-info {
+    max-width: 600px !important;
+    padding: 24px !important;
+    margin: 20px auto !important;
+  }
+
+  .degree :nth-child(1) {
+    font-size: 2rem !important;
+  }
+
+  .forecast {
+    grid-template-columns: repeat(auto-fit, minmax(135px, 1fr)) !important;
+    gap: 16px !important;
+    max-width: 800px !important;
+    margin: 20px auto !important;
+  }
+
+  .forecast-card {
+    padding: 16px !important;
+  }
+
+  .forecast-card img {
+    width: 68px !important;
+    height: 68px !important;
+  }
+
+  .forecast-temp {
+    font-size: 1.7rem !important;
+  }
+
+  .weather-skeleton {
+    max-width: 600px !important;
+    margin: 20px auto !important;
+  }
+}
+
+/* Desktop (1024px - 1440px) */
+@media (min-width: 1024px) and (max-width: 1439.98px) {
+  .App {
+    padding: 40px 32px 70px;
+  }
+
+  .app-title {
+    font-size: 36px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .weather-info {
+    max-width: 700px !important;
+    padding: 28px !important;
+    margin: 24px auto !important;
+  }
+
+  .degree :nth-child(1) {
+    font-size: 2.2rem !important;
+  }
+
+  .forecast {
+    grid-template-columns: repeat(auto-fit, minmax(145px, 1fr)) !important;
+    gap: 18px !important;
+    max-width: 1000px !important;
+  }
+
+  .forecast-card {
+    padding: 18px !important;
+  }
+
+  .forecast-card img {
+    width: 72px !important;
+    height: 72px !important;
+  }
+
+  .forecast-temp {
+    font-size: 1.8rem !important;
+  }
+
+  .temp-switch {
+    min-width: 150px !important;
+  }
+
+  .weather-skeleton {
+    max-width: 700px !important;
+  }
+}
+
+/* Large Desktop (>= 1440px) */
+@media (min-width: 1440px) {
+  .App {
+    padding: 50px 60px 80px;
+  }
+
+  .app-title {
+    font-size: 42px !important;
+    margin-bottom: 24px !important;
+  }
+
+  .weather-info {
+    max-width: 900px !important;
+    padding: 32px !important;
+    margin: 32px auto !important;
+  }
+
+  .degree :nth-child(1) {
+    font-size: 2.5rem !important;
+  }
+
+  .forecast {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)) !important;
+    gap: 20px !important;
+    max-width: 1200px !important;
+  }
+
+  .forecast-card {
+    padding: 20px !important;
+    border-radius: 24px !important;
+  }
+
+  .forecast-card img {
+    width: 80px !important;
+    height: 80px !important;
+  }
+
+  .forecast-temp {
+    font-size: 2rem !important;
+  }
+
+  .weather-skeleton {
+    max-width: 900px !important;
+  }
+}
+
+/* Touch Device Optimizations */
+@media (hover: none) and (pointer: coarse) {
+  button,
+  .temp-switch,
+  .popular-select,
+  input {
+    min-height: 48px !important;
+  }
+
+  .search-button {
+    width: 48px !important;
+    min-width: 48px !important;
+    min-height: 48px !important;
+  }
+}
+
+/* Landscape Mode Adjustments */
+@media (max-height: 600px) and (orientation: landscape) {
+  .App {
+    padding: 12px 20px 20px;
+  }
+
+  .weather-info {
+    padding: 12px !important;
+  }
+
+  .forecast {
+    margin: 10px 0 !important;
+  }
+
+  .forecast-card {
+    padding: 10px 8px !important;
+  }
+
+  .forecast-card img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+}
+
+/* High Resolution Displays (Retina) */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}

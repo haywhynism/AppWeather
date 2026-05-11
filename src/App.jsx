@@ -205,7 +205,7 @@ function App() {
           <span className="switch-icon">⇄</span>
           <span className="switch-label">°F</span>
         </button>
-        <div className="popular ">
+        <div className="popular d-flex align-items-center gap-2">
           <label htmlFor="states" className="popular-label">
             Popular State:{" "}
           </label>

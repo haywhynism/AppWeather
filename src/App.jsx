@@ -232,11 +232,13 @@ function App() {
       )}
 
       {!state.loading && state.error && (
-        <div
-          className="alert alert-danger my-5 mx-3 d-flex align-items-center"
-          role="alert"
-        >
-          <div>{state.error}</div>
+        <div className="error-page   my-5 p-4  d-flex flex-column align-items-center text-center" role="alert">
+          <div className="error-icon mb-3" aria-hidden="true">⚠️</div>
+          <h3 className="error-heading mb-2">Oops! Something went wrong</h3>
+          <p className="error-message mb-3">{state.error}</p>
+          <button className="refresh-button" onClick={refreshPage}>
+            Try again
+          </button>
         </div>
       )}
 

@@ -89,9 +89,10 @@ function App() {
 
     try {
       const query = encodeURIComponent(state.states);
+      const apiUrl = import.meta.env.VITE_API_URL || '/api';
       const [response1, response2] = await Promise.all([
-        fetch(`/api/weather?city=${query}`),
-        fetch(`/api/forecast?city=${query}`),
+        fetch(`${apiUrl}/weather?city=${query}`),
+        fetch(`${apiUrl}/forecast?city=${query}`),
       ]);
 
       if (!response1.ok || !response2.ok) {

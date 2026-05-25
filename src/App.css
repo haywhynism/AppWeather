@@ -109,7 +109,7 @@ button {
 } */
 
 .app-title {
-  font-size: 30px !important;
+  font-size: 45px !important;
   font-family: Arial !important;
   color: transparent !important;
   background: linear-gradient(
@@ -501,7 +501,7 @@ body.bg-haze {
   }
 
   .app-title {
-    font-size: 18px !important;
+    font-size: 25px !important;
     margin-bottom: 8px !important;
   }
 
@@ -582,7 +582,7 @@ body.bg-haze {
   }
 
   .app-title {
-    font-size: 20px !important;
+    font-size: 24px !important;
     margin-bottom: 10px !important;
   }
 
@@ -790,7 +790,7 @@ body.bg-haze {
   }
 
   .app-title {
-    font-size: 28px !important;
+    font-size: 35px !important;
     margin-bottom: 16px !important;
   }
 
@@ -839,7 +839,7 @@ body.bg-haze {
   }
 
   .app-title {
-    font-size: 32px !important;
+    font-size: 36px !important;
     margin-bottom: 18px !important;
   }
 
@@ -886,7 +886,7 @@ body.bg-haze {
   }
 
   .app-title {
-    font-size: 36px !important;
+    font-size: 40px !important;
     margin-bottom: 20px !important;
   }
 
@@ -935,7 +935,7 @@ body.bg-haze {
   }
 
   .app-title {
-    font-size: 42px !important;
+    font-size: 47px !important;
     margin-bottom: 24px !important;
   }
 

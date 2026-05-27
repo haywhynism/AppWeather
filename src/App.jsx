@@ -220,7 +220,7 @@ function App() {
             <option value="Lagos">Lagos</option>
             <option value="Abuja">Abuja</option>
             <option value="Oyo">Oyo</option>
-            <option value="Ondo State">Ondo State</option>
+            <option value="Ondo State">Ondo</option>
           </select>
         </div>
       </div>

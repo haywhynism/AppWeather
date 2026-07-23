@@ -17,7 +17,7 @@ dist-ssr
 !.vscode/extensions.json
 .idea
 .env
-.env.example
+!.backend/.env.example
 .env.local.example
 .env.production
 .env.local
